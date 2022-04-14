@@ -1,0 +1,67 @@
+
+.mainHeading {
+    text-align: center;
+}
+.ruler1 {
+    border-width: 16px;
+    border-style: dotted none none;
+    width: 20%;
+    border-color: lightskyblue;
+}
+.subWrapper {
+    display: grid;
+    grid-template-areas: "toc preview preview";
+    /* column-gap: 50px; */
+}
+.toc {
+    width: 300px;
+    grid-area: toc;
+    background-color: lightskyblue;
+    padding: 5%;
+    height: 50vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 5px;
+}
+.toc::-webkit-scrollbar {
+    height: 10px;
+}
+ .toc::-webkit-scrollbar-track {
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+.toc::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid lightskyblue;
+}
+.subHeadingTxt {
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.subHeadingTxt:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+
+}
+.selectedSub {
+    background-color: blue;
+    color: white;
+}
+.ruler2 {
+    border-width: 1px;
+    border-style: solid none none;
+    width: 90%;
+    border-color: white;
+}
+.preview {
+    grid-area: preview;
+    background-color: rgba(135, 206, 250, 0.288);
+    padding: 12px 20px 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,82 @@
+.contactSecWrapper {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.brandName {
+    color: white;
+    font-family: sans-serif;
+  
+}
+.ctaIcon {
+    color: white;
+}
+.emailInput {
+    height: 30px;
+    border-radius: 10px;
+    border-width: 0;
+    outline: none;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+.emailInput:focus {
+    box-shadow: 2px 1px 6px 2px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+.submitEmail {
+    padding: 7px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.linksWrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    column-gap: 30px;
+}
+.linkItem {
+    margin: 5px 10px 5px 0;
+    text-decoration: none;
+    color: black;
+}
+.linkItem:hover {
+    color: white;
+    font-weight: 700;
+}
+.ruler {
+    width: 100%;
+    color: white;
+    border-style: solid none none;
+    margin-bottom: 10px;
+}
+.footerItem {
+    margin: 5px 20px 5px 0;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.footerItem:hover {
+    color: white;
+}
+@media (max-width: 991px) {
+    p {
+        font-size: 24px;
+    }
+    .contactSecWrapper {
+        grid-template-columns: auto;
+    }
+    .brandName {
+        font-size: 36px;
+        text-align: center;
+    }
+    .adIcon {
+        display: block;
+        width: 100%;
+    }
+    .footerItem {
+        display: block;
+    }
+}
+  

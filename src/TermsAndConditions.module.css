@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    padding: 5%;
+}
+.hr {
+    border-width: 16px;
+    border-style: dotted none none;
+    width: 20%;
+    border-color: lightskyblue;
+}
+.mainHeading {
+    text-align: center;
+}

@@ -1,0 +1,112 @@
+
+.mainHeading {
+    text-align: center;
+}
+.preview {
+    border-radius: 5px;
+}
+.heading1 {
+    padding: 5px;
+    padding-left: 12px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.editBtn {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    border-width: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-self: flex-end;
+    margin-right: 20px;
+}
+.editBtn:hover {
+    cursor: pointer;
+    background-color: rgb(82, 185, 250);
+}
+
+.ruler2 {
+    border-width: 1px;
+    border-style: solid none none;
+    border-color: lightgrey;
+    margin: 0;
+}
+.profilePic {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+.profilePic img {
+    width: 100%; 
+}
+.prevBody1 {
+    padding: 12px;
+    box-sizing: border-box;
+    display: grid;
+    /* grid-template-areas: "pic input input"; */
+    grid-template-columns : 1fr 2fr;
+}
+.inputs {
+    text-align: center;
+    padding: 20px;
+}
+.prevBody1 div input {
+    padding: 12px;
+    outline: none;
+    margin-bottom: 10px;
+    width: 90%;
+    border-radius: 10px;
+    border-width: 1px;
+    
+}
+.prevBody1 div input:focus {
+    box-shadow: 0 1px 6px 0 rgba(128, 128, 128, 0.527);
+}
+
+
+.heading2 {
+    padding: 5px;
+    padding-left: 12px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.adBtns {
+    justify-self: flex-end;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.advertBtn {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid lightskyblue;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-self: flex-end;
+    margin-right: 20px;
+}
+.selectedAd {
+    border: 0 solid lightskyblue;
+    background-color: lightskyblue;
+}
+.heading3 {
+    padding: 5px;
+    padding-left: 12px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.addQuestionBtn {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    border-width: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-self: flex-end;
+    margin-right: 20px;
+}

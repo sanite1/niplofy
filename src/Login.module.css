@@ -1,0 +1,129 @@
+body {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+.loginWrapper {
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    margin-bottom: 50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px 0 grey;
+}
+.carousel {
+    /* border-radius: 100%; */
+    width: 100%;
+    background-color: red;
+    padding: 30px 0 50px;
+}
+.loginForm {
+    text-align: center;
+    padding: 30px 0 50px;
+}
+.signinOptsBtnGoogle {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 4px 8px 0 rgba(255, 0, 0, 0.7);
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.signinOptsBtnGoogle:hover {
+    border-color: red;
+}
+.googleImg {
+    width: 24px;
+}
+.signinOptsBtnFacebook {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 255, 0.7);
+    font-size: 18px;
+}
+.signinOptsBtnFacebook:hover {
+    border-color: blue;
+}
+.text {
+    font-size: 12px;
+}
+.inputBox {
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 0 solid;
+    border-color: linear-gradient(to right, blue, black);
+    /* background: linear-gradient(to right, blue, black); */
+    border-bottom-width: 2px;
+}
+.inputBox:last-of-type {
+    margin-bottom: 10px;
+}
+.inputBox:focus {
+    border-color: lightskyblue;
+}
+.passReset {
+    color: grey;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 10%;
+}
+.passReset:hover {
+    color: red;
+    cursor: pointer;
+}
+.loginBtn {
+    width: 80%;
+    padding: 12px;
+    border: 0 solid;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: honeydew;
+}
+.loginBtn:hover {
+    cursor: pointer;
+    background-color: #2699FB;
+
+
+}
+.signupOpt {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10%;
+}
+.signupBtn {
+    text-decoration: underline;
+    color: lightskyblue;
+}
+.signupBtn:hover {
+    color: #2699FB;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 991px) {
+    .signinOptsBtnGoogle {
+        width: 80%;
+        
+    }
+    .signinOptsBtnFacebook {
+        width: 80%;
+        
+    }
+}

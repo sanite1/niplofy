@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+}
+hr {
+    width: 10%;
+    border-style: dotted none none;
+    border-width: 20px;
+    border-color: lightskyblue;
+}
+.subHeading {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.introWrapper {
+    background-color: lightskyblue;
+    display: grid;
+    grid-template-areas: "logo txt txt";
+    padding: 50px 0%;
+}
+.logoSide {
+    text-align: center;
+    min-width: 33vw;
+    grid-area: logo;
+    padding-top: 50%;
+}
+.txtArea {
+    padding-right: 10%;
+    grid-area: txt;
+}
+.introText {
+    font-size: 30px;
+    overflow:auto;
+}
+.OurTeamWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item {
+    max-width: 250px;
+}
+.row3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.statement{
+    text-align: center;
+}
+.statement .col22{
+    max-width: 250px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: transform 0.5s;
+}
+.statement .header2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.statement .col22:hover{
+    transform: translateY(-10px);
+}
+.col22{
+    flex-basis: 50%;
+}
+.col22 p{
+    margin: 10px 0;
+}

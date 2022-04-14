@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Desktop\\NIIT Class"
+		},
+		{
+			"path": "..\\..\\practice"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\Documents\\Atom\\Car Info Site"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "NIIT Class"
+	}
+}

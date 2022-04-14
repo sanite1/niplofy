@@ -1,0 +1,161 @@
+
+body {
+    background-color: rgba(128, 128, 128, 0.308);
+    font-family: sans-serif;
+}
+
+.wrapper000 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 12px 5%;
+    /* column-gap: 12px; */
+}
+.wrapper00 {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 0 grey;
+    box-sizing: border-box;
+    padding: 12px;
+}
+.wrapper11 {
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 0 grey;
+    box-sizing: border-box;
+    height: 100%;
+}
+.wrapper1 {
+    /* width: 40%; */
+    margin-right: 20px;
+    
+}
+.wrapper2 {
+    /* width: 60%; */
+    margin-left: 30px;
+}
+.mainImg {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.imgOptions {
+    display: flex;
+    column-gap: 2px;
+    row-gap: 2px;
+    flex-wrap: wrap;
+}
+.otherImgs {
+    max-width: 36px;
+    border-radius: 5px;
+    
+}
+.selectedImg {
+    border: 1px solid lightskyblue;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    box-shadow: 0 1px 3px 0 grey;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 16px;
+}
+.btn:first-of-type {
+    background-color: lightskyblue;
+    color: white;
+}
+.btn:first-of-type:hover {
+    background-color:rgb(0, 132, 255);
+    cursor: pointer;
+
+}
+.btn:last-of-type {
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+}
+.btn:last-of-type:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+
+}
+
+.profileImg {
+    width: 36px;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 0 1px 6px 0 grey;
+    border-radius: 100%;
+}
+.sellerName {
+    display: inline;
+    
+}
+.exStore {
+    font-size: 10px;
+    cursor: pointer;
+    
+}
+.exStore:hover {
+    color: lightskyblue;
+}
+
+
+
+
+.wrapper110 {
+    box-sizing: border-box;
+    padding: 10%;
+    height: auto;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+.tips li {
+    font-size: 13px;
+}
+.wrapper111 {
+    padding: 5%;
+}
+.btn2 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    box-shadow: 0 1px 3px 0 grey;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 16px;
+    background-color: white;
+    color: gold;
+    border: 1px solid gold;
+    cursor: pointer;
+
+}
+.btn2:hover {
+
+}
+
+.descWrapper {
+    margin: 30px 5%;
+    background-color: white;
+    box-shadow: 0 1px 6px 0 grey;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.optionItem {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.selectedOpt {
+    color: blue;
+}

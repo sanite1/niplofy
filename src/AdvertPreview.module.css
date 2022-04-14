@@ -1,0 +1,49 @@
+.adPreviewWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch    ;
+    box-sizing: border-box;
+    padding: 16px;
+}
+.card {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 150px;
+    max-width: 170px;
+    margin-bottom: 10px;
+    position: relative;
+    box-shadow: 2px 1px 6px 2px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+.card > p {
+    margin-bottom: 5px;
+}
+.card > img {
+    width: 100%; 
+}
+.opsWrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+
+}
+.opsImg {
+    width: 50%;
+}
+.opsMsg {
+    font-size: 24px;
+    font-family: cursive;
+}
+.active {
+    background-color: rgba(0, 128, 0, 0.903);
+}
+.reviewing {
+    background-color: rgba(255, 255, 0, 0.903);
+}
+.rejected {
+    background-color: rgba(255, 0, 0, 0.903);
+}

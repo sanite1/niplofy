@@ -1,0 +1,18 @@
+.socials {
+    margin-top: 20px;
+    margin-right: 25px;
+    color: blue;
+}
+.adIcon {
+    margin-right: 25px;
+    color: blue;
+}
+
+
+@media (max-width: 991px) {
+    .adIcon {
+        display: block;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+}
